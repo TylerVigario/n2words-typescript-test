@@ -6,6 +6,6 @@
         "outDir": "build",
     },
     "files": [
-        "src/index.cts"
+        "index.cts"
     ]
 }
