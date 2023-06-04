@@ -2,9 +2,10 @@
     "compilerOptions": {
         "target": "ESNext",
         "module": "CommonJS",
-        "moduleResolution": "nodenext"
+        "moduleResolution": "nodenext",
+        "outDir": "build",
     },
     "files": [
-        "index.cts"
+        "src/index.cts"
     ]
 }

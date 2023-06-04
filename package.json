@@ -7,7 +7,9 @@
     "build": "npm run build:cjs && npm run build:esm",
     "build:cjs": "tsc -p ./tsconfig.cjs.json",
     "build:esm": "tsc -p ./tsconfig.esm.json",
-    "test": "node ./index.cjs && node ./index.mjs"
+    "test": "npm run test:cjs && npm run test:esm",
+    "test:cjs": "node ./build/index.cjs",
+    "test:esm": "node ./build/index.mjs"
   },
   "dependencies": {
     "n2words": "^1.16.2"

@@ -2,9 +2,10 @@
     "compilerOptions": {
         "target": "ESNext",
         "module": "ESNext",
-        "moduleResolution": "nodenext"
+        "moduleResolution": "nodenext",
+        "outDir": "build",
     },
     "files": [
-        "index.mts"
+        "src/index.mts"
     ]
 }
