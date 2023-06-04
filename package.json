@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "license": "MIT",
+  "author": "Tyler Vigario",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build:cjs && npm run build:esm",
+    "build:cjs": "tsc -p ./tsconfig.cjs.json",
+    "build:esm": "tsc -p ./tsconfig.esm.json",
+    "test": "node ./index.cjs && node ./index.mjs"
+  },
+  "dependencies": {
+    "n2words": "^1.16.2"
+  }
+}
