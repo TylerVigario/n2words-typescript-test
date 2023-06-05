@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "build": "npm run build:cjs && npm run build:esm",
-    "build:cjs": "npx tsc -p ./tsconfig.cjs.json",
-    "build:esm": "npx tsc -p ./tsconfig.esm.json",
+    "build:cjs": "npx tsc -p ./commonjs-to-es6",
+    "build:esm": "npx tsc -p ./esnext-to-es6",
     "test": "npm run test:cjs && npm run test:esm",
-    "test:cjs": "node ./build/index.cjs",
-    "test:esm": "node ./build/index.mjs"
+    "test:cjs": "node ./commonjs-to-es6/index.js",
+    "test:esm": "node ./esnext-to-es6/index.js"
   },
   "dependencies": {
     "n2words": "^1.16.2"

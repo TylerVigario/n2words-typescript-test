@@ -3,9 +3,8 @@
     "target": "ES6",
     "module": "CommonJS",
     "moduleResolution": "nodenext",
-    "outDir": "build",
   },
   "files": [
-    "index.cts"
+    "index.ts"
   ]
 }

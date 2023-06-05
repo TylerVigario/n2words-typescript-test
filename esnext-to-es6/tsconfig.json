@@ -2,10 +2,9 @@
   "compilerOptions": {
     "target": "ES6",
     "module": "ESNext",
-    "moduleResolution": "nodenext",
-    "outDir": "build",
+    "moduleResolution": "nodenext"
   },
   "files": [
-    "index.mts"
+    "index.ts"
   ]
 }
