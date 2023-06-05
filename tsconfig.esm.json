@@ -1,11 +1,11 @@
 {
-    "compilerOptions": {
-        "target": "ES6",
-        "module": "ESNext",
-        "moduleResolution": "nodenext",
-        "outDir": "build",
-    },
-    "files": [
-        "index.mts"
-    ]
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "ESNext",
+    "moduleResolution": "nodenext",
+    "outDir": "build",
+  },
+  "files": [
+    "index.mts"
+  ]
 }
