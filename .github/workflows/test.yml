@@ -20,7 +20,7 @@ jobs:
         node-version: 'current'
         cache: 'npm'
 
-    - run: npm update
+    - run: npm ci
 
     - run: npm run build
 
