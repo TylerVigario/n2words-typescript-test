@@ -12,7 +12,7 @@
     "test:esm": "node ./esnext-to-es6/index.js"
   },
   "dependencies": {
-    "n2words": "latest"
+    "n2words": "forzagreen/n2words"
   },
   "devDependencies": {
     "typescript": "latest"

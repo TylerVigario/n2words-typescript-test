@@ -20,11 +20,7 @@ jobs:
         node-version: 'current'
         cache: 'npm'
 
-    - run: npm ci
-      if: github.event_name == 'push'
-
     - run: npm update
-      if: github.event_name == 'schedule'
 
     - run: npm run build
 
